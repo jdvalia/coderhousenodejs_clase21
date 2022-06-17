@@ -1,0 +1,48 @@
+<h1>ZAPATILLAS</h1>
+<div class="container">
+    <br>
+    <hr>
+    <h2>Agregar Zapatilla</h2>
+    <hr>
+    <form>
+        <div class="row">
+            <div class="col-25"><label>Nombre :</label></div>
+            <div class="col-75"><input type="text" name="nombre" id="nombre" required></div>
+        </div>
+        <div class="row">
+            <div class="col-25"><label>Precio : </label></div>
+            <div class="col-75"><input type="text" name="precio" id="precio" required></div>
+        </div>
+        <div class="row">
+            <div class="col-25"><label>Foto URL : </label></div>
+            <div class="col-75"><input type="text" name="fotoUrl" id="fotoUrl" required></div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Enviar" id="altaZapatilla">
+        </div>
+    </form>
+
+    <br>
+    <hr>
+    <h2>Listado de Zapatillas</h2>
+    <hr>
+    <div id="listadoZapatillas"></div>
+
+    <br>
+    <hr>
+    <h2>Chats</h2>
+    <hr>
+    <form>
+        <div class="row"></div>
+        <div class="col-100"><input type="text" name="email" placeholder="usuario@correo.com"></div>
+        <div class="row">
+            <br>
+            <div class="col-100" id="listadoMensajes"></div>
+        </div>
+        <div class="row">
+            <div class="col-75"><input type="text" name="mensaje" placeholder="escriba un mensaje"></div>
+            <div class="col-25"><input type="submit" value="Enviar" id="nuevoMensajeCHAT"></div>
+        </div>
+    </form>
+
+</div>
